@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tugas Membuat Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Data Pribadi Zaidan</h1>
+      <form action="Data-Pribadi.php" method="post">
+        <fieldset>
+          <legend>Data Pribadi</legend>
+          <div>
+            <label>Nama:</label>
+            <input type="text" name="name" placeholder="Your Name..." />
+          </div>
+          <div>
+            <label>Alamat:</label>
+            <input type="text" name="Alamat" placeholder="Your Adress..." />
+          </div>
+          <div>
+            <label>Jenis Kelamin</label>
+            <label
+              ><input
+                type="radio"
+                name="jenis_kelamin"
+                value="Laki-Laki"
+              />Laki-Laki</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="jenis_kelamin"
+                value="Perempuan"
+              />Perempuan</label
+            >
+          </div>
+          <div>
+            <label>Hobi:</label>
+            <label
+              ><input
+                type="checkbox"
+                name="Memasak"
+                value="memasak"
+              />Memasak</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="Bersepeda"
+                value="bersepeda"
+              />Bersepeda</label
+            >
+            <label
+              ><input type="checkbox" name="Lari" value="lari" />Lari</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="Panahan"
+                value="panahan"
+              />Panahan</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="Renang"
+                value="renang"
+              />Renang</label
+            >
+          </div>
+          <div>
+            <input type="submit" name="submit" value="Kirim" />
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
