@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piala Dunia 2018 Russia | The World's Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #f8f9fa;
+      }
+
+      .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8b3b520d-150f-45fe-a90c-1174742e8903.png")
+            no-repeat center center;
+        background-size: cover;
+        height: 80vh;
+      }
+
+      .player-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .trophy-animation {
+        animation: float 3s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+    </style>
+  </head>
+  <body class="min-h-screen">
+    <!-- Header/Navbar -->
+    <header class="bg-red-600 text-white shadow-lg">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-10 w-10"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <h1 class="text-2xl font-bold">Piala Dunia 2018</h1>
+        </div>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="#home" class="hover:underline">Beranda</a></li>
+            <li><a href="#teams" class="hover:underline">Tim</a></li>
+            <li><a href="#players" class="hover:underline">Pemain</a></li>
+            <li><a href="#stats" class="hover:underline">Statistik</a></li>
+            <li><a href="#matches" class="hover:underline">Pertandingan</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero flex items-center justify-center text-center text-white"
+    >
+      <div class="px-4">
+        <h1 class="text-5xl md:text-6xl font-bold mb-4">
+          Piala Dunia FIFA 2018
+        </h1>
+        <p class="text-xl md:text-2xl mb-8">Russia | 14 Juni - 15 Juli 2018</p>
+        <div class="flex justify-center trophy-animation">
+          <img
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7cec0765-b09a-4185-9a4f-2dc7de3216fc.png"
+            alt="Piala Dunia FIFA tampak depan dengan warna emas mengkilap berdiri di atas alas hitam"
+            class="h-24"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlight Section -->
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Highlight Turnamen</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/50891d9b-2dee-4478-a91d-721c40584472.png"
+              alt="Tandukan Mario Mandzukic yang menjadi gol cepat di final melawan Prancis"
+              class="w-full rounded mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Gol Tercepat di Final</h3>
+            <p>
+              Mario Mandzukic mencetak gol dalam waktu 4 menit saat pertandingan
+              final antara Kroasia vs Prancis.
+            </p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e89493dc-633a-4b3c-a282-5a9bc0e35144.png"
+              alt="Kylian Mbappe berlari cepat melewati pemain Kroasia di partai final"
+              class="w-full rounded mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">
+              Penampilan Gemilang Mbappé
+            </h3>
+            <p>
+              Pemain muda Prancis Kylian Mbappé menjadi bintang dengan mencetak
+              gol di final.
+            </p>
+          </div>
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e4dfa560-8b9c-4f70-b026-c19513ff50e7.png"
+              alt="Tim nasional Prancis merayakan kemenangan dengan trofi Piala Dunia"
+              class="w-full rounded mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Prancis Juara Dunia</h3>
+            <p>
+              Prancis mengalahkan Kroasia 4-2 di final untuk meraih gelar Piala
+              Dunia kedua mereka.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Players Section -->
+    <section id="players" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          Bintang-Bintang Piala Dunia 2018
+        </h2>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+        >
+          <!-- Player 1 -->
+          <div
+            class="player-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300"
+          >
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dfe11c20-d2d9-4b42-bcf4-138b45b58e5c.png"
+              alt="Kylian Mbappé dalam seragam Prancis sedang berlari dengan cepat"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Kylian Mbappé</h3>
+              <p class="text-gray-600">Prancis - Penyerang</p>
+              <div class="mt-2">
+                <span
+                  class="inline-block bg-blue-100 text-blue-800 px-2 py-1 text-xs rounded"
+                  >4 Gol</span
+                >
+                <span
+                  class="inline-block bg-green-100 text-green-800 px-2 py-1 text-xs rounded ml-1"
+                  >Pemain Muda Terbaik</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Player 2 -->
+          <div
+            class="player-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300"
+          >
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0d8c3bfd-1354-4c61-af9d-f07e906eac8d.png"
+              alt="Luka Modric dengan seragam Kroasia mengontrol bola di tengah lapangan"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Luka Modrić</h3>
+              <p class="text-gray-600">Kroasia - Gelandang</p>
+              <div class="mt-2">
+                <span
+                  class="inline-block bg-blue-100 text-blue-800 px-2 py-1 text-xs rounded"
+                  >2 Gol</span
+                >
+                <span
+                  class="inline-block bg-purple-100 text-purple-800 px-2 py-1 text-xs rounded ml-1"
+                  >Pemain Terbaik</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Player 3 -->
+          <div
+            class="player-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300"
+          >
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b55237f2-f507-4b47-b0f9-b6b67d6d3d8c.png"
+              alt="Harry Kane kapten Inggris dengan lengan kapten dan senyum bangga"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Harry Kane</h3>
+              <p class="text-gray-600">Inggris - Penyerang</p>
+              <div class="mt-2">
+                <span
+                  class="inline-block bg-blue-100 text-blue-800 px-2 py-1 text-xs rounded"
+                  >6 Gol</span
+                >
+                <span
+                  class="inline-block bg-yellow-100 text-yellow-800 px-2 py-1 text-xs rounded ml-1"
+                  >Sepatu Emas</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Player 4 -->
+          <div
+            class="player-card bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300"
+          >
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/afcde2a8-63b2-4a41-a35f-8aabf789bce3.png"
+              alt="Eden Hazard dari Belgia menggiring bola melewati pemain lawan"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Eden Hazard</h3>
+              <p class="text-gray-600">Belgia - Gelandang</p>
+              <div class="mt-2">
+                <span
+                  class="inline-block bg-blue-100 text-blue-800 px-2 py-1 text-xs rounded"
+                  >3 Gol</span
+                >
+                <span
+                  class="inline-block bg-red-100 text-red-800 px-2 py-1 text-xs rounded ml-1"
+                  >2 Assist</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Tim Perseorangan</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="flex flex-col items-center">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/126e25af-ead8-4178-bde0-36d64b435c18.png"
+              alt="Lambang resmi Tim Nasional Prancis warna biru dengan ayam jago"
+              class="h-16 w-16 mb-2"
+            />
+            <span>Prancis</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1b7a81b1-63b0-44ba-a064-1c95b08f1ed6.png"
+              alt="Lambang Tim Nasional Kroasia dengan pola kotak-kotak merah putih"
+              class="h-16 w-16 mb-2"
+            />
+            <span>Kroasia</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/12d3c711-d397-4318-96e7-48948e928a37.png"
+              alt="Lambang Tim Nasional Belgia dengan warna hitam kuning merah"
+              class="h-16 w-16 mb-2"
+            />
+            <span>Belgia</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/81299947-6969-4154-b967-11cc0ded8862.png"
+              alt="Lambang Tim Nasional Inggris dengan tiga singa emas"
+              class="h-16 w-16 mb-2"
+            />
+            <span>Inggris</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/479c2eeb-1595-4171-aae3-4ec67866bf67.png"
+              alt="Lambang Tim Nasional Uruguay dengan matahari dan garis biru putih"
+              class="h-16 w-16 mb-2"
+            />
+            <span>Uruguay</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c40daadb-0fad-40b3-acd4-e8af46d0da33.png"
+              alt="Lambang Tim Nasional Brasil dengan bintang emas di lingkaran biru"
+              class="h-16 w-16 mb-2"
+            />
+            <span>Brasil</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Matches Section -->
+    <section id="matches" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">
+          Pertandingan Penting
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Final Match -->
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+            <div class="flex justify-between items-center mb-4">
+              <div class="text-xl font-semibold">Final</div>
+              <div class="text-gray-500">15 Juli 2018</div>
+            </div>
+            <div class="flex items-center justify-between py-4">
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e124eb2f-2676-467a-b687-1de86c74c3c5.png"
+                  alt="Flag Prancis"
+                  class="h-6"
+                />
+                <span>Prancis</span>
+              </div>
+              <span class="text-xl font-bold">4 - 2</span>
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b6773cbd-1ced-4883-b1b7-45b07448c3a1.png"
+                  alt="Flag Kroasia"
+                  class="h-6"
+                />
+                <span>Kroasia</span>
+              </div>
+            </div>
+            <div class="text-sm text-gray-600">
+              <p>⚽ Griezmann (P) 18' (pen.), Pogba 59', Mbappé 65'</p>
+              <p>⚽ Mandzukić 4' (own goal), 69'</p>
+              <p>🏟️ Luzhniki Stadium, Moskow</p>
+            </div>
+          </div>
+
+          <!-- Semifinal 1 -->
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+            <div class="flex justify-between items-center mb-4">
+              <div class="text-xl font-semibold">Semifinal</div>
+              <div class="text-gray-500">10 Juli 2018</div>
+            </div>
+            <div class="flex items-center justify-between py-4">
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b4cdec33-6328-4592-a6cc-d100995308dc.png"
+                  alt="Flag Prancis"
+                  class="h-6"
+                />
+                <span>Prancis</span>
+              </div>
+              <span class="text-xl font-bold">1 - 0</span>
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4e29fe4f-9bd2-457d-8fa6-6aa95b74739a.png"
+                  alt="Flag Belgia"
+                  class="h-6"
+                />
+                <span>Belgia</span>
+              </div>
+            </div>
+            <div class="text-sm text-gray-600">
+              <p>⚽ Umtiti 51'</p>
+              <p>🏟️ Krestovsky Stadium, Saint Petersburg</p>
+            </div>
+          </div>
+
+          <!-- Semifinal 2 -->
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+            <div class="flex justify-between items-center mb-4">
+              <div class="text-xl font-semibold">Semifinal</div>
+              <div class="text-gray-500">11 Juli 2018</div>
+            </div>
+            <div class="flex items-center justify-between py-4">
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/89dd5da5-057e-4c06-9eb2-3dcd8e644a6d.png"
+                  alt="Flag Inggris"
+                  class="h-6"
+                />
+                <span>Inggris</span>
+              </div>
+              <span class="text-xl font-bold">1 - 2</span>
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/45454e61-5ea6-441f-aff1-384a0f6993f9.png"
+                  alt="Flag Kroasia"
+                  class="h-6"
+                />
+                <span>Kroasia</span>
+              </div>
+            </div>
+            <div class="text-sm text-gray-600">
+              <p>⚽ Trippier 5'</p>
+              <p>⚽ Perišić 68', Mandžukić 109'</p>
+              <p>🏟️ Luzhniki Stadium, Moskow</p>
+            </div>
+          </div>
+
+          <!-- Quarterfinal -->
+          <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+            <div class="flex justify-between items-center mb-4">
+              <div class="text-xl font-semibold">Perempat Final</div>
+              <div class="text-gray-500">6 Juli 2018</div>
+            </div>
+            <div class="flex items-center justify-between py-4">
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/cbe4a7a1-f3f0-41f6-acd2-589a71208eba.png"
+                  alt="Flag Brasil"
+                  class="h-6"
+                />
+                <span>Brasil</span>
+              </div>
+              <span class="text-xl font-bold">1 - 2</span>
+              <div class="flex items-center space-x-2">
+                <img
+                  src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8ec248a8-c161-45a6-9b6b-55bb08abefac.png"
+                  alt="Flag Belgia"
+                  class="h-6"
+                />
+                <span>Belgia</span>
+              </div>
+            </div>
+            <div class="text-sm text-gray-600">
+              <p>⚽ Fernando Luis Roza 13' (own goal), De Bruyne 31'</p>
+              <p>⚽ Renato Augusto 76'</p>
+              <p>🏟️ Kazan Arena, Kazan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Statistik Penting</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-center">Top Skor</h3>
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+              <table class="min-w-full">
+                <thead class="bg-gray-50">
+                  <tr>
+                    <th
+                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    >
+                      Pemain
+                    </th>
+                    <th
+                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    >
+                      Tim
+                    </th>
+                    <th
+                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    >
+                      Gol
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Harry Kane</td>
+                    <td class="px-6 py-4 whitespace-nowrap">Inggris</td>
+                    <td class="px-6 py-4 whitespace-nowrap">6</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                      Antoine Griezmann
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap">Prancis</td>
+                    <td class="px-6 py-4 whitespace-nowrap">4</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Romelu Lukaku</td>
+                    <td class="px-6 py-4 whitespace-nowrap">Belgia</td>
+                    <td class="px-6 py-4 whitespace-nowrap">4</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Kylian Mbappé</td>
+                    <td class="px-6 py-4 whitespace-nowrap">Prancis</td>
+                    <td class="px-6 py-4 whitespace-nowrap">4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-center">Penghargaan</h3>
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+              <table class="min-w-full">
+                <thead class="bg-gray-50">
+                  <tr>
+                    <th
+                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    >
+                      Penghargaan
+                    </th>
+                    <th
+                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    >
+                      Pemenang
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Golden Ball</td>
+                    <td class="px-6 py-4 whitespace-nowrap">Luka Modrić</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Golden Boot</td>
+                    <td class="px-6 py-4 whitespace-nowrap">Harry Kane</td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">Golden Glove</td>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                      Thibaut Courtois
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                      Best Young Player
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap">Kylian Mbappé</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between">
+          <div class="mb-6 md:mb-0">
+            <h3 class="text-xl font-bold mb-2">Piala Dunia 2018</h3>
+            <p class="text-gray-400">
+              Turnamen sepak bola internasional yang diadakan di Rusia
+            </p>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-2">Tautan Cepat</h4>
+            <ul>
+              <li class="mb-1">
+                <a href="#home" class="text-gray-400 hover:text-white"
+                  >Beranda</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#players" class="text-gray-400 hover:text-white"
+                  >Pemain</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#teams" class="text-gray-400 hover:text-white">Tim</a>
+              </li>
+              <li class="mb-1">
+                <a href="#stats" class="text-gray-400 hover:text-white"
+                  >Statistik</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#matches" class="text-gray-400 hover:text-white"
+                  >Pertandingan</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold mb-2">Info</h4>
+            <p class="text-gray-400">Tanggal: 14 Juni - 15 Juli 2018</p>
+            <p class="text-gray-400">Tuan Rumah: Rusia</p>
+            <p class="text-gray-400">Juara: Prancis</p>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400"
+        >
+          <p>© 2023 Piala Dunia 2018 Rusia. Semua hak cipta.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scrolling for navigation
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Animation for hero section on scroll
+      window.addEventListener("scroll", function () {
+        const heroSection = document.querySelector(".hero");
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition < 500) {
+          heroSection.style.transform = `translateY(${scrollPosition * 0.2}px)`;
+        }
+      });
+    </script>
+  </body>
+</html>
