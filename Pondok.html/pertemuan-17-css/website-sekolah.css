@@ -1,0 +1,107 @@
+body {
+    margin: 0px ;
+   
+}
+.navigasi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none; 
+    padding: 20px;  
+    background-color: blue;    
+}
+.home {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.Blog {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.Galeri {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.Visi-Dan-Misi {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+a:hover {
+    color: greenyellow;
+}
+.menu a {
+    margin-right: 20px;
+}
+.pembukaan-pondok {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.ajakan-pondok {
+    color: green;
+    text-transform: capitalize;
+    font-size: 23px;
+    text-align: center;
+}
+.daftar {
+    text-align: center;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    position: center;
+}
+.daftar:hover {
+    color: blue;
+}
+.judul-visi-dan-misi {
+    color: blue;
+    font-size: 24px;
+    padding: 10px;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.artikel-pondok {
+    color: green;
+    line-height: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.judul-visi {
+    padding: 10px;
+    font-size: 18px;
+    color: green;
+}
+.judul-misi {
+    padding: 10px;
+    font-size: 18px;
+    color: green;
+}
+
+
+
+
+

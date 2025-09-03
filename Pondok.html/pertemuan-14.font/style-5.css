@@ -1,0 +1,41 @@
+body {
+background-image: url(./../../Bola.html/Asset-Bola/belgia\ vs\ japan.jpg);
+height: 690px;
+direction: ltr;
+}
+header {
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 18%, rgba(0, 212, 255, 1) 88%);
+color: antiquewhite;
+}
+section {
+text-align: left;
+color: antiquewhite;
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 18%, rgba(0, 212, 255, 1) 88%);
+}
+.arab {
+    direction: rtl;
+    text-align: justify;
+}
+.decoration-transform {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.text-spacing {
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-indent: 40px;
+    white-space: break-spaces;
+}
+.oferflow {
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.shadow{
+    color: lime;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}

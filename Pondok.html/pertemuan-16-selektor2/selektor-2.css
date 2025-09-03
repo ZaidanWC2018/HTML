@@ -1,0 +1,57 @@
+*{
+    
+}
+
+p {
+    color: blue;
+    text-transform: lowercase;
+}
+div {
+    color: green;
+    text-transform: capitalize;
+}
+b {
+    color: black;
+    font-size: 30px;
+}
+.pink {
+    color: blue;
+    background-color: pink;
+    padding: 5px;
+    font-weight: 700;
+}
+.text-white {
+    color: white;
+}
+.bg-teal {
+    background-color: teal;
+    padding: 5px;
+}
+#header{
+    background-color: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+    text-transform: capitalize;
+}
+input[type="text"] {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    width: 800px;
+    border-radius: 15px;
+}
+/* a:hover {
+    color: blue;
+} */
+ a:hover {
+    color: white;
+    text-decoration: none;
+ }
+.halaman:hover {
+    color: red;
+}
+p span {
+    color: magenta;
+}

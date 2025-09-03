@@ -1,3 +1,6 @@
+.ini-isi-content {
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+}
 h2{
     font-size: 40px;
     color: red;
@@ -12,7 +15,7 @@ img {
 .Perjalanan-sahabat-Umar-bin-Khattab {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color: green;
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
 }
 #kelahiran-umar-bin-khattab {
     font-family: serif;
@@ -63,7 +66,4 @@ p {
     font-family: cursive;
     font-size: 25px;
     color: darkblue;
-}
-body {
-    background-color: bisque;
 }
