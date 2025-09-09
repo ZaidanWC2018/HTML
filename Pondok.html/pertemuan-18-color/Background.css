@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 30px;
+}
+.gradient {
+    color: aliceblue;
+    height: 400px;
+    padding: 100px;
+    text-align: center;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 38%, rgba(0, 212, 255, 1) 80%);
+    font-size: 100px;
+}
+body {
+    background-image: url(./assets-background/pemandangan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
