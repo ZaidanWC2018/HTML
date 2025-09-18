@@ -1,0 +1,12 @@
+header {
+   border: 40px solid transparent;
+   border-image-source: url(./border-new.png);
+   border-image-slice: 80;
+   border-image-repeat: round;
+   max-width: 900px;
+   margin: auto;
+}
+h1 {
+    background-color: aqua;
+    text-align: center;
+}

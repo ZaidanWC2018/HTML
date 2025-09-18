@@ -1,0 +1,12 @@
+header {
+    width: 600px;
+    background-color: darkmagenta;
+    color: white;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+article {
+    width: 600px;
+    background-color: honeydew;
+    padding: 16px;
+}

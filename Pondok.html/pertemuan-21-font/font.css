@@ -1,0 +1,58 @@
+body {
+    font-family:"Roboto", sans-serif;
+}
+h1 {
+    font-size: 24px;
+    color: slateblue;
+}
+.font-big {
+    font-size: x-large;
+}
+.font-small {
+    font-size: small;
+}
+.font-weight {
+    font-weight: bold;
+}
+.light {
+    font-weight: lighter;
+}
+.bolder {
+    font-weight: bolder;
+}
+.miring {
+    font-style: italic;
+}
+blockquote {
+    font-style: italic;
+    font-size: larger;
+    color: dodgerblue;
+    padding: 10px;
+    border: solid dodgerblue;
+    width: 200px;
+    border-radius: 20px;
+}
+.sans {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.serif {
+    font-family: serif;
+    font-size: 40px;
+}
+.monospace {
+    font-family: monospace;
+    font-size: 40px;
+}
+.cursive {
+    font-family: cursive;
+    font-size: 40px;
+}
+.fantasy {
+    font-family: fantasy;
+    font-size: 40px;
+}
+h2 {
+    font-family: "Epunda Slab", serif;
+    font-size: 40px;
+}

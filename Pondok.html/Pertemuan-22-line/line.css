@@ -1,0 +1,8 @@
+header {
+    border: 5px solid black;
+    text-align: center;
+    border-top: 5px solid black;
+    border-bottom: 2px dashed green;
+    border-right: 3px dotted red;
+    border-left: 3px double violet;
+}
