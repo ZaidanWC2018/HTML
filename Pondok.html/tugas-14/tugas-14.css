@@ -1,0 +1,17 @@
+div {
+    height: 50vh;
+    background-color: lightblue;
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 35px;
+    border-radius: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
