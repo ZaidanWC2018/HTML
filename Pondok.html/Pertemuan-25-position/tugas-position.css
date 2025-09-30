@@ -1,0 +1,111 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      height: 100vh; 
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+    header {
+      position: sticky;
+      top: 0;
+      background: #f1f1f1;
+      padding: 10px;
+      font-weight: bold;
+      z-index: 1000;
+    }
+
+    
+    .content {
+      flex: 1;
+      overflow-y: auto; 
+      padding: 20px;
+    }
+
+    
+    .card {
+      width: 400px;
+      margin: 20px auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: black;
+      color: white;
+      font-size: 12px;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    .card-body {
+      padding: 15px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 5px 10px;
+      background: #eee;
+      border-radius: 3px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    
+    .container-box {
+      width: 400px;
+      margin: 20px auto;
+      border: 1px dashed #aaa;
+      height: 150px;
+      position: relative;
+    }
+
+    .box-a {
+      width: 100px;
+      height: 70px;
+      background: lightsteelblue;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+.box-b {
+      width: 100px;
+      height: 100px;
+      background: steelblue;
+      position: absolute;
+      top: 30px; 
+      left: 40px; 
+    }
+    #toTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #fff;
+      border: 1px solid #aaa;
+      padding: 8px 12px;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    
+
