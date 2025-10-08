@@ -26,16 +26,6 @@ body {
 .content-zaidan img {
     width: 300px;
 }
-.last {
-    color: white;
-    background-color: blue;
-    text-align: center;
-    padding-bottom : 10px ;
-}
-.last p {
-    margin-bottom: 0;
-    padding-top: 20px;
-}
 .skills {
     background-color: white;
     border:2px solid aqua;
@@ -60,6 +50,16 @@ body {
 }
 .contact h1 {
     color: blue;
+}
+.last {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding-bottom : 10px ;
+}
+.last p {
+    margin-bottom: 0;
+    padding-top: 20px;
 }
 
 
