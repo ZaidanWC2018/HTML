@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.logo-sosmed {
+    float: left;
+    width: 50px;
+    padding-top: 150px;
+    margin-left: 5px;
+    position: fixed;
+}
+.Whatsapp {
+    width: 50px;
+}
+.Pinterest {
+   width: 50px;
+}
+.Facebook {
+   width: 50px;
+}
+.Twitter {
+    width: 50px;
+}
+.Linkedin {
+    width: 50px;
+}
+.Plus {
+    width: 50px;
+}
+.Paragraf {
+    padding-right: 300px;
+    padding-left: 300px;
+}

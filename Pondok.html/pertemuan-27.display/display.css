@@ -37,3 +37,13 @@ span {
 .None {
     display: none;
 }
+img {
+    visibility: collapse;
+    height: 100px;
+    background-color: red;
+}
+.Visibilty {
+    display: inline;
+    height: 100px;
+    background-color: blue;
+}

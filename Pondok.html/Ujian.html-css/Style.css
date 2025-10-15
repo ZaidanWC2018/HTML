@@ -1,8 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 0px;
-    margin: 0px;
     background-color: aqua;
+    margin: 0;
 }
 .Portofolio {
     color: white;
@@ -50,6 +49,9 @@ body {
 }
 .contact h1 {
     color: blue;
+}
+a:hover {
+    color: aqua;
 }
 .last {
     color: white;
