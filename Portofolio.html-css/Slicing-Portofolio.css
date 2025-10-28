@@ -1,0 +1,166 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-decoration: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.btn-login {
+  background-color: white;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+nav {
+    border-bottom: 2px solid black;
+}
+.navbar img {
+    width: 80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.nav-menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-menu li a:hover {
+    color: blue;
+}
+.btn-login a {
+    color: blueviolet;
+    text-decoration: none;
+}
+.btn-login a:hover {
+    color: blue;
+}
+.hero-section{
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.hero-section img {
+    float: right;
+    width: 500px;
+    margin-right: 80px;
+    margin-top: 0;
+}
+.nama {
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+.kata {
+    font-size: 65px;
+    margin-left: 25px;
+}
+.Lorem {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 0;
+}
+span {
+    color: blueviolet;
+}
+.btn-section {
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.btn-section a {
+    text-decoration: none;
+    color: white;
+}
+.btn-section a:hover {
+    color: blue;
+}
+.Skills h6 {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+.judul-skills {
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.Card-1 {
+    margin-left: 30px;
+    background-color: rgb(208, 203, 232);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.Card-2 {
+    margin-left: 30px;
+    background-color: rgb(208, 203, 232);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.Card-3 {
+    margin-left: 30px;
+    background-color: rgb(208, 203, 232);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.Card-4 {
+    margin-left: 30px;
+    background-color: rgb(208, 203, 232);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.all-card {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+.about-me img {
+    float: left;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.teks-about {
+    margin-top: 100px;
+    margin-left: 800px;
+}
+.teks-about h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.teks-about h1 {
+    margin-top: 0px;
+    font-size: 50px;
+}
+.about {
+    font-size: 20px;
+}
+
+
