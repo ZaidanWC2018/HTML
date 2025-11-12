@@ -63,18 +63,21 @@ nav img {
 }
 .nama {
     font-size: 18px;
-    margin-left: 25px;
+    margin-left: 0px;
     margin-top: 50px;
     font-weight: bold;
+    padding-left: 25px;
 }
 .kata {
     font-size: 65px;
-    margin-left: 25px;
+    margin-left: 0px;
+    padding-left: 25px;
 }
 .Lorem {
     font-size: 20px;
-    margin-left: 25px;
+    margin-left: 0px;
     margin-top: 0;
+    padding-left: 25px;
 }
 span {
     color: blueviolet;
@@ -184,11 +187,11 @@ span {
     margin-top: 20px;
     font-size: 20px;
     margin-bottom: 0px;
-    margin-left: 25px
+    margin-left: 40px
 }
 .jdl-projects h1 {
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 40px;
     font-size: 40px;
     float: left;
 }
@@ -228,6 +231,10 @@ span {
 .Ecommerce h1 {
     padding-left: 20px;
 }
+.Ecommerce img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .btn-ecommerce {
     background-color: white;
     border-radius: 10px;
@@ -263,6 +270,10 @@ span {
     padding-left: 20px;
     font-weight: 500;
 }
+.Portofolio-Pribadi img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .btn-portofolio {
     margin-left: 20px;
     background-color: white;
@@ -297,6 +308,10 @@ span {
     padding-left: 20px;
     font-weight: 500;
 }
+.Blog-Pribadi img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .btn-blog {
     background-color: white;
     padding: 15px;
@@ -317,6 +332,7 @@ span {
 }
 .btn-blog a:hover {
     color: blue;
+    font-style: italic;
 }
 .Projects {
     align-items: center;
@@ -499,7 +515,7 @@ input[type="submit"] {
     font-style: italic;
 }
 .border {
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     background-color: black;
     margin-left: 20px;
     margin-right: 20px;

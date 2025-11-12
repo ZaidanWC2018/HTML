@@ -1,0 +1,50 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh; /* penting agar batas tinggi viewport aktif */
+    overflow: hidden; /* cegah scroll bar di body */
+  }
+
+  /* Sidebar kiri */
+  .sidebar {
+    width: 200px;
+    background-color: navy;
+    color: white;
+    overflow-y: scroll; 
+    height: 100vh; 
+  }
+
+  .sidebar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+  }
+
+  .sidebar div {
+    padding: 20px;
+    border-bottom: 1px solid #001f3f;
+    cursor: pointer;
+  }
+
+  .sidebar div:hover {
+    background-color: #0033cc;
+  }
+
+
+  .content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    overflow-y: scroll; 
+    height: 100vh;
+  }
+
+  .content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }

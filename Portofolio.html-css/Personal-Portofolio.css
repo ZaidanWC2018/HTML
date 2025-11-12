@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+    color: #9C9C9C;
+    font-family: monospace;
+    margin-top: 0px;
+}
+/* Google Fonts */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Style Navigasi (Awal) */
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+    background-color: #1B1B1B;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+nav a {
+    color: #9C9C9C;
+    margin-right: 100px;
+    text-decoration:  none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.Sosmed {
+    margin-left: 50px;
+}
+.LinkedIn {
+    margin-right: 20px;
+    width: 25px;
+}
+.Behance {
+    margin-right: 20px;
+    width: 25px;
+}
+.Twitter {
+    width: 25px;
+}
+/* Style Navigasi (Akhir) */
+ 
+/* Style Hero Section (Awal) */
+.Hero-Section {
+    margin-top: 150px;
+}
+.Hero-Section img {
+    float: right;
+    width: 500px;
+    margin-right: 150px;
+}
+.Hero-Section h1 {
+    color: white;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+.Hero-Section p {
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.btn-section {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding: 50px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #3F8E00;
+    border: 2px solid #62BA1B;
+}
+.btn-section a {
+    font-size: 26px;
+    word-spacing: 20px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: monospace;
+    color: white;
+}
+/* Style Hero Section (akhir) */
+
+/* Style Footer (awal) */
+footer {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-left: 150px;
+}
+footer p {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Logo-1 {
+    margin-right: 20px;
+    width: 300px;
+    margin-top: 15px;
+}
+.Logo-2 {
+    margin-right: 20px;
+    width: 300px;
+    margin-top: 15px;
+}
+.Logo-3 {
+    margin-right: 20px;
+    width: 300px;
+    margin-top: 15px;
+}
+.Logo-4 {
+    margin-right: 20px;
+    width: 300px;
+    margin-top: 15px;
+}
+.Logo-5 {
+    margin-right: 20px;
+    width: 300px;
+    margin-top: 15px;
+}
+/* Style Footer (akhir) */
+
+
+
+
+
+
