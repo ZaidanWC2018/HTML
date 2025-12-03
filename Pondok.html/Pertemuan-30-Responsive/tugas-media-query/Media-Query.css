@@ -9,8 +9,9 @@ body {
     .all-card {
         flex-direction: column;
         margin-left: 0px;
-        max-width: 500px;
-        padding: 500px;
+       width: 00px;
+       padding: 500px;
+
     }
     .card-1 {
         flex-basis: 100%;

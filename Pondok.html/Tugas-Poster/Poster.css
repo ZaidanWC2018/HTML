@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-top: 40px;
+}
+.karantina-light {
+  font-family: "Karantina", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.karantina-regular {
+  font-family: "Karantina", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.karantina-bold {
+  font-family: "Karantina", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+.kavivanar-regular {
+  font-family: "Kavivanar", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.Poster {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    animation: fade-In 2s forwards;
+}
+@keyframes fade-In {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        
+    }
+}
+h1 {
+    margin-bottom: 0px;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    animation: slide-Up 2s ease-in-out infinite ;   
+}
+@keyframes slide-Up {
+    0% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 rgba(255, 111, 97,.6);
+        }
+        70% {
+            transform: scale(1.06);
+            box-shadow: 0 0 0 0 rgba(255, 111, 97,.0);
+        }
+        100% {
+            transform: scale(1);
+        }
+    
+}
+
+h1:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+img {
+    margin-top: 0px;
+    width: 500px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+img:hover {
+    transform: scale(1.05);
+}
+.btn-like {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    width: 100px;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+}
+@keyframes pulse-1 {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 111, 97,.6);
+    }
+    70% {
+        transform: scale(1.06);
+        box-shadow: 0 0 0 0 rgba(255, 111, 97,.0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.btn-like a {
+    color: white;
+    text-decoration: none;
+}
+.btn-like:hover {
+    transform: scale(1.1);
+    background-color: blue;
+    animation: pulse-1 2s ease-in-out infinite;
+}
+
+.btn-save {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    width: 100px;
+    transition: all 0.5s ease;
+}
+@keyframes pulse-2 {
+    0% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 rgba(255, 111, 97,.6);
+        }
+        70% {
+            transform: scale(1.06);
+            box-shadow: 0 0 0 0 rgba(255, 111, 97,.0);
+        }
+        100% {
+            transform: scale(1);
+        }
+}
+.btn-save a {
+    color: white;
+    text-decoration: none;
+}
+.btn-save:hover {
+    transform: scale(1.1);
+    background-color: blue;
+    animation: pulse-2 2s ease-in-out infinite;
+}
+h3 {
+    transition: all 0.5s ease;  
+}
+h3:hover {
+    transform: scale(1.1);
+    color: blue;
+    animation: slide 2s forwards;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(3px);
+    }
+}
