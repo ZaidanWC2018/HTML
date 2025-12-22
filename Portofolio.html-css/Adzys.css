@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+.cabin-Regular {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.cabin-small {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.cabin-Semibold {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+/* Awal Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+nav {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #212161;
+    font-size: 20px;
+}
+.btn-demo {
+    margin-right: 80px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #2C9BF3;
+    background: linear-gradient(30deg, rgba(44, 155, 243, 1) 40%, rgba(255, 255, 255, 1) 100%);
+}
+.btn-demo a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+/* Akhir Header */
+
+/* Awal Hero Section */
+.Hero-Section {
+    margin-top: 100px;
+}
+.Hero-Section img {
+    float: right;
+    width: 700px;
+    padding-right: 100px;
+}
+.Hero-Section h1 {
+    padding-left: 100px;
+    font-size: 50px;
+    color: white;
+}
+.Hero-Section span {
+    color: #212161;
+}
+.Hero-Section p {
+    padding-left: 100px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+}
+.btn-pelajari {
+    margin-left: 100px;
+    padding: 15px;
+    background: linear-gradient(30deg, rgba(255, 74, 74, 1)) 40%, rgba(255, 107, 107, 1) 100%;
+    border: none;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+.btn-pelajari a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.background {
+    background: #2C9BF3;
+    background: linear-gradient(180deg, rgba(44, 155, 243, 1) 19%, rgba(255, 255, 255, 1) 100%);
+    height: 1000px;
+    position: relative;
+}
+/* Akhir Hero Section */
+
+/* Awal Section Manajemen */
+   .Man {
+    text-align: center;
+    font-size: 50px;
+   }
+   .Manajemen span {
+    color: #212161;
+   }
+   .Kotak-h1 {
+    color: white;
+   }
+   .all-kotak-1 {
+   
+   }
+/* Akhir Section Manajemen */
